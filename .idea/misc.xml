@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/hp/Desktop/MonAppMobileReda/app/src/main/res/drawable/ic_baseline_play_arrow_24.xml" value="0.1325" />
+        <entry key="..\:/Users/hp/Desktop/MonAppMobileReda/app/src/main/res/drawable/round_back_green10.xml" value="0.203" />
+        <entry key="..\:/Users/hp/Desktop/MonAppMobileReda/app/src/main/res/drawable/round_back_green20.xml" value="0.2815" />
+        <entry key="..\:/Users/hp/Desktop/MonAppMobileReda/app/src/main/res/drawable/round_back_light_yellow10.xml" value="0.2815" />
+        <entry key="..\:/Users/hp/Desktop/MonAppMobileReda/app/src/main/res/drawable/round_back_reda10.xml" value="0.203" />
+        <entry key="..\:/Users/hp/Desktop/MonAppMobileReda/app/src/main/res/drawable/round_back_white10.xml" value="0.2815" />
+        <entry key="..\:/Users/hp/Desktop/MonAppMobileReda/app/src/main/res/drawable/round_back_white_stroke10.xml" value="0.2815" />
+        <entry key="..\:/Users/hp/Desktop/MonAppMobileReda/app/src/main/res/drawable/round_back_white_stroke2_10.xml" value="0.203" />
+        <entry key="..\:/Users/hp/Desktop/MonAppMobileReda/app/src/main/res/layout/activity_main.xml" value="0.33539094650205764" />
+        <entry key="..\:/Users/hp/Desktop/MonAppMobileReda/app/src/main/res/layout/activity_profile.xml" value="0.33" />
+        <entry key="..\:/Users/hp/Desktop/MonAppMobileReda/app/src/main/res/layout/activity_quiz.xml" value="0.27708333333333335" />
+        <entry key="..\:/Users/hp/Desktop/MonAppMobileReda/app/src/main/res/layout/activity_quiz_results.xml" value="0.33" />
+        <entry key="..\:/Users/hp/Desktop/MonAppMobileReda/app/src/main/res/layout/activity_reda.xml" value="0.27708333333333335" />
+        <entry key="..\:/Users/hp/Desktop/MonAppMobileReda/app/src/main/res/layout/activity_register_user.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/hp/Desktop/MonAppMobileReda/app/src/main/res/layout/activity_test.xml" value="0.27708333333333335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

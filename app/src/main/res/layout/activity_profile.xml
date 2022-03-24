@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="276dp"
+        android:layout_height="168dp"
+        android:layout_marginTop="120dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logoapplication" />
+
+    <Button
+        android:id="@+id/signOut"
+        android:layout_width="370dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="24dp"
+        android:text="Log out"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:drawableLeft="@drawable/ic_exit"/>
+
+    <TextView
+        android:id="@+id/emailAddressTitle"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:text="Email adress : "
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/fullNameTitile"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:text="Full name : "
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailAdress" />
+
+    <TextView
+        android:id="@+id/ageTitile"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+
+        android:text="Age"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fullName" />
+
+    <TextView
+        android:id="@+id/emailAdress"
+        android:layout_width="230dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:text="x@x.com"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/emailAddressTitle"
+        app:layout_constraintTop_toBottomOf="@+id/emailAddressTitle" />
+
+    <TextView
+        android:id="@+id/fullName"
+        android:layout_width="230dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="a"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/fullNameTitile"
+        app:layout_constraintTop_toBottomOf="@+id/fullNameTitile" />
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="230dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ageTitile"
+        app:layout_constraintTop_toBottomOf="@+id/ageTitile" />
+
+    <Button
+        android:id="@+id/startQuizz"
+        android:layout_width="370dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
+        android:text="Start"
+        android:textColorLink="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/signOut"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:drawableLeft="@drawable/ic_play"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
